@@ -127,8 +127,7 @@
   "load.gpuStrictVramCap.customSubTitleOff": "OFF: Allow model weights to offload to shared memory if dedicated GPU memory is full",
   "load.gpuStrictVramCap.customSubTitleOn": "ON: The system will limit offload of model weights to dedicated GPU memory and RAM only. Context may still use shared memory",
   "load.gpuStrictVramCap.customGpuOffloadWarning": "Model offload limited to dedicated GPU memory. Actual number of offloaded layers may differ",
-  "load.allGpusDisabledWarning": "All GPUs are currently disabled. Enable at least one to offload",
-
+  "load.allGpusDisabledWarning": "All GPUs are currently disabled. Enable at least one to offload"
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
   "llm.load.contextLength/info": "Specifies the maximum number of tokens the model can consider at once, impacting how much context it retains during processing",
@@ -406,6 +405,11 @@
     "contextMenuOpenInHub": "View on Web",
     "contextMenuPullFromHub": "Pull Latest",
     "contextMenuPushChanges": "Push Changes to Hub",
+    "contextMenuSelect": "Apply Preset",
+    "contextMenuDelete": "Delete...",
+    "contextMenuShare": "Publish...",
+    "contextMenuOpenInHub": "View on Hub",
+    "contextMenuPushChanges": "Push changes to Hub",
     "contextMenuPushingChanges": "Pushing...",
     "contextMenuPushedChanges": "Changes pushed",
     "contextMenuExport": "Export File",
